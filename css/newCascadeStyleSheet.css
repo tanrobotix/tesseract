@@ -1,0 +1,100 @@
+form {
+    border: coral;
+    width: 1000px;
+    margin: 10px auto;
+    float: left;
+}  
+.search {   
+    border: medium none ;
+    display: block;
+    width: 76%;
+    height: 38px;
+    float: left;
+}
+.button {
+    height: 38px;
+    width: 120px;
+    position: relative;
+    border:2px solid #207cca;
+    background-color:#207cca;
+    color:#fafafa;
+}
+.button:hover  {
+    background-color:#fafafa;
+    color:#207cca;                
+}
+div#jdi{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:-1;
+}  
+body, h1, h2, h3, h4, h5, h6{
+    font-family: "Lato", sans-serif;
+}
+body, html{
+	height: 100%;
+	color: #777;
+	line-height: 1.8;
+}
+
+/* Parallax effect*/
+.bgimg_1, .bgimg_2, .bgimg_3{
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+/* IMG1 (logo, full heigh)*/
+.bgimg_1{
+	background-image: url("/img/demacia-hallvalor.jpg");
+	min-height: 100%;
+}
+/* IMG2 (portfolio) */
+.bgimg_2{
+	background-image: url("/img/freljord-gatewayhowling.jpg");
+	min-height: 400px;
+}
+/* IMG3 */
+.bgimg_3{
+	background-image: url("/img/ionia-placidiumnavori.jpg");
+	min-height: 400px;
+}
+.tan-wide {
+	letter-spacing: 10px;
+}
+.tan-hover-opacity{
+	cursor: pointer;
+}
+.tan-top{
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	top: 0;
+}
+.tan-bar .tan-bar-item{
+	width: 100%;
+	overflow: hidden;
+	display: inline-block;
+	width: auto;
+	padding: 8px 16px;
+	float: left;
+	border:none;
+	outline: none;
+	display: block;
+	position: static;
+	white-space: normal;
+}
+
+.tan-bar-item{
+	padding: 8px 16px
+}
+
+/* Turn off parallax scrolling for tablets & smartphone */
+@media only screen and (max-device-width: 1024px){
+	.bgimg_1, .bgimg_2, .bgimg_3{
+		background-attachment: scroll;
+	}
+}

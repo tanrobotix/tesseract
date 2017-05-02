@@ -1,0 +1,78 @@
+.tan-opacity-min{
+	opacity: 0.75;
+}
+div{
+	display: block;
+}
+body{
+	font-family: Verdana, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+}
+.tan-black{
+	color:#fff !important;
+	background-color: #000 !important;
+}
+.tan-padding-large{
+	padding: 15px 40px !important;
+}
+.tan-center{
+	text-align: center !important;
+}
+.tan-wide{
+	letter-spacing: 4px;
+}
+.tan-animate-opacity{animation:opac 0.8s;}@keyframes opac{from{opacity:0} to{opacity:1;}}
+.searchbox{
+	margin: 8px auto;
+	border: 1px solid #ccc !important;
+	padding: 8px;
+	font: inherit;
+	white-space: nowrap;
+	width: 600px;
+}
+input{
+	overflow: visible;
+	-webkit-appearance: textfield;
+	background-color: white;
+	-webkit-rtl-ordering: logical;
+	user-select: text;
+	cursor: auto;
+	text-rendering: auto;
+	color: initial;
+	letter-spacing: normal;
+	word-spacing: normal;
+	text-transform: none;
+	text-indent: 0px;
+	text-shadow: none;
+	display: inline-block;
+	text-align: start;
+}
+.tan-black{
+	color: #fff !important;
+	background-color: #000 !important;
+}
+.tan-button{
+	user-select: none;
+	border: none;
+	padding: 8px 20px;
+	overflow: hidden;
+	text-decoration: none;
+	text-align: center;
+	cursor: pointer;
+	white-space: nowrap;
+}
+button[type=submit]{
+	-webkit-appearance: button;
+	text-transform: none;
+	font: inherit;
+	margin: 0px;
+	letter-spacing: normal;text-rendering: auto;
+	word-spacing: normal;text-indent: 0px;
+	text-shadow: none;display: inline-block;
+}
+.row2{
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
